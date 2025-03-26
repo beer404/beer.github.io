@@ -1,0 +1,202 @@
+nav{
+    height: 53px;
+    background-color: #212121;
+    
+}
+
+header{
+    position: relative;
+    
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 11px 71px 11px 71px;
+}
+
+.menu .menu_link{
+    font-family: 'Roboto Light';
+    font-size: 15px;
+    color: #fff;
+}
+
+.menu .menu_item{
+    border-right: 3px dotted black;
+    padding-right: 33px;
+}
+
+.subheader{
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background-color: rgba(0, 0, 0, .5);
+    padding-top: 19px;
+    padding-bottom: 34px;
+}
+
+.subheader .col-4 .subheader_logo_text{
+    font-family: 'Roboto Thin';
+    font-size: 13px;
+    color: #fff;
+}
+
+.subheader .col-2{
+    text-align: right
+}
+
+.subheader .col-2 .call{
+    font-family: 'Roboto Light';
+    font-size: 12px;
+    color: #fff;
+}
+
+.subheader .col-2 .number{
+    font-family: 'Roboto Regular';
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.subheader .button{
+    border-radius: 4px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subheader .button .text_button{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.21); 
+}
+
+
+
+.section_one{
+    height: 799px;
+    background-image: url(../img/uber_bg.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 157px;
+    text-align: center;
+}
+
+
+.section_one .title_subtitle .title{
+    font-family: 'Roboto Black';
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 50px
+}
+
+.section_one .title_subtitle .title .subtitle{
+    font-family: 'Roboto Bold';
+    font-size: 36px;
+}
+
+.section_one .title_subtitle .text{
+    margin-top: 16px;
+    width: 985px;
+    line-height: 133%;
+    font-family: 'Roboto Regular';
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.section_one .button_section_one{
+    margin: 0 auto;
+    margin-top: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.12);
+    background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+}
+
+.section_one .button_section_one .text_button{
+    font-family: 'Roboto Regular';
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
+
+.section_two{
+    height: 767px;
+    background-color:#fff;
+    padding-top: 16px;
+}
+
+.section_two .subtitle{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 27px;
+    background-color: black;
+}
+.section_two .subtitle .text{
+    font-family: 'Roboto Regular';
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.section_two .title{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-family: 'Roboto Bold';
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222;
+}
+
+.section_two .circle_logo_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_two .row{
+    margin-top: 61px;
+}
+.section_two .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1eacc7;
+    width: 113px;
+    height: 113px;
+    border-radius: 100%;
+}
+
+.section_two .text_logo{
+    width: 372px;
+    margin-left: 25px;
+    font-family: 'Roboto Light';
+    font-size: 15px;
+    color: #202020;
+}
+
+.section_two .text_logo  .text_blue{
+    font-family: 'Roboto Regular';
+    font-size: 17px;
+    line-height: 124%;
+    color: #1eacc7
+}
